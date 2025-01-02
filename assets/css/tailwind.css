@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+  background-color: black;
+}
+#home,
+#top-about,
+#contact {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: 30% 100%;
+  background-repeat: none;
+}
+
+#top-about {
+  background-position: center;
+}
